@@ -5,20 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Tideflow | Markdown to PDF Editor</title>
-  <meta name="description" content="Tideflow is an offline-first Markdown to PDF editor for clean, elegant and print-ready document exports." />
+  <meta
+    name="description"
+    content="Tideflow is an offline-first Markdown to PDF editor for clean, elegant and print-ready document exports."
+  />
 
   <meta property="og:title" content="Tideflow | Markdown to PDF Editor" />
-  <meta property="og:description" content="Write in Markdown. Export beautiful PDFs. Offline-first, lightweight and print-ready." />
+  <meta
+    property="og:description"
+    content="Write in Markdown. Export beautiful PDFs. Offline-first, lightweight and print-ready."
+  />
   <meta property="og:type" content="website" />
 
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body id="top">
   <div class="cursor-glow"></div>
 
   <nav class="navbar">
-    <a class="logo" href="#">Tideflow</a>
+    <a class="logo" href="#top">Tideflow</a>
 
     <div class="nav-links">
       <a href="#features">Features</a>
@@ -29,186 +35,223 @@
     </div>
   </nav>
 
-  <section class="hero">
-    <div class="orb orb-one"></div>
-    <div class="orb orb-two"></div>
-    <div class="orb orb-three"></div>
+  <main>
+    <section class="hero">
+      <div class="orb orb-one"></div>
+      <div class="orb orb-two"></div>
+      <div class="orb orb-three"></div>
 
-    <p class="badge">Offline-first Markdown to PDF editor</p>
+      <p class="badge">Offline-first Markdown to PDF editor</p>
 
-    <h1>Write in Markdown. Export Beautiful PDFs.</h1>
+      <h1>Write in Markdown. Export Beautiful PDFs.</h1>
 
-    <p class="subtitle">
-      A lightweight desktop app for fast, elegant, print-ready PDF exports.
-      No cloud dependency. No heavy toolchains. Just write and export.
-    </p>
+      <p class="subtitle">
+        A lightweight desktop app for fast, elegant, print-ready PDF exports.
+        No cloud dependency. No heavy toolchains. Just write and export.
+      </p>
 
-    <div class="buttons">
-      <a class="btn" href="https://github.com/erayerd/Tideflow-md-to-pdf/releases" target="_blank" rel="noopener noreferrer">
-        Download Tideflow
-      </a>
+      <div class="buttons">
+        <a
+          class="btn"
+          href="https://github.com/erayerd/Tideflow-md-to-pdf/releases/latest"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download Tideflow
+        </a>
 
-      <a class="btn secondary" href="https://github.com/erayerd/Tideflow-md-to-pdf" target="_blank" rel="noopener noreferrer">
-        View on GitHub
-      </a>
-    </div>
-
-    <div class="mockup">
-      <div class="mockup-top">
-        <span></span>
-        <span></span>
-        <span></span>
+        <a
+          class="btn secondary"
+          href="https://github.com/erayerd/Tideflow-md-to-pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View on GitHub
+        </a>
       </div>
 
-      <div class="mockup-content">
-        <div class="editor">
-          <p class="code-line"># Project Notes</p>
-          <p class="code-line">## Goals</p>
-          <p class="code-line">- Write clean Markdown</p>
-          <p class="code-line">- Preview instantly</p>
-          <p class="code-line">- Export print-ready PDFs</p>
-          <p class="code-line code-accent">exportPDF({ theme: "clean" })</p>
+      <div class="mockup">
+        <div class="mockup-top">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
 
-        <div class="preview">
-          <h3>Beautiful PDF Preview</h3>
-          <p>Clean, structured and ready to export.</p>
+        <div class="mockup-content">
+          <div class="editor">
+            <p class="code-line"># Project Notes</p>
+            <p class="code-line">## Goals</p>
+            <p class="code-line">- Write clean Markdown</p>
+            <p class="code-line">- Preview instantly</p>
+            <p class="code-line">- Export print-ready PDFs</p>
+            <p class="code-line code-accent">exportPDF({ theme: "clean" })</p>
+          </div>
 
-          <div class="pdf-lines">
-            <span></span>
-            <span></span>
-            <span></span>
+          <div class="preview">
+            <h3>Beautiful PDF Preview</h3>
+            <p>Clean, structured and ready to export.</p>
+
+            <div class="pdf-lines">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="features" class="features reveal">
-    <p class="badge">Features</p>
+    <section id="features" class="features reveal">
+      <p class="badge">Features</p>
 
-    <h2>Everything you need. Nothing you don’t.</h2>
+      <h2>Everything you need. Nothing you don’t.</h2>
 
-    <div class="cards">
-      <div class="card">
-        <h3>Offline-first</h3>
-        <p>Work without relying on web services or cloud sync.</p>
+      <div class="cards">
+        <div class="card">
+          <h3>Offline-first</h3>
+          <p>Work without relying on web services or cloud sync.</p>
+        </div>
+
+        <div class="card">
+          <h3>Markdown Native</h3>
+          <p>Write naturally in Markdown and keep your workflow simple.</p>
+        </div>
+
+        <div class="card">
+          <h3>Print-ready PDFs</h3>
+          <p>Export clean, elegant documents without heavy setup.</p>
+        </div>
       </div>
+    </section>
 
-      <div class="card">
-        <h3>Markdown Native</h3>
-        <p>Write naturally in Markdown and keep your workflow simple.</p>
+    <section id="workflow" class="workflow reveal">
+      <p class="badge">Workflow</p>
+
+      <h2>From Markdown to PDF in seconds.</h2>
+
+      <div class="steps">
+        <div class="step">1. Write</div>
+        <div class="step">2. Preview</div>
+        <div class="step">3. Export</div>
       </div>
+    </section>
 
-      <div class="card">
-        <h3>Print-ready PDFs</h3>
-        <p>Export clean, elegant documents without heavy setup.</p>
+    <section id="platforms" class="platforms reveal">
+      <p class="badge">Platforms</p>
+
+      <h2>Download Tideflow for your desktop.</h2>
+
+      <p class="platform-subtitle">
+        Available for Windows, macOS and Linux. Built for focused Markdown writing and clean PDF exports.
+      </p>
+
+      <div class="platform-cards">
+        <div class="platform-card">
+          <h3>Windows</h3>
+          <p>Download Tideflow for your Windows writing workflow.</p>
+          <a
+            class="btn"
+            href="https://github.com/erayerd/Tideflow-md-to-pdf/releases/latest"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download for Windows
+          </a>
+        </div>
+
+        <div class="platform-card">
+          <h3>macOS</h3>
+          <p>Use Tideflow on your Mac for focused Markdown editing.</p>
+          <a
+            class="btn"
+            href="https://github.com/erayerd/Tideflow-md-to-pdf/releases/latest"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download for macOS
+          </a>
+        </div>
+
+        <div class="platform-card">
+          <h3>Linux</h3>
+          <p>Run Tideflow on Linux and keep your workflow lightweight.</p>
+          <a
+            class="btn"
+            href="https://github.com/erayerd/Tideflow-md-to-pdf/releases/latest"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download for Linux
+          </a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="workflow" class="workflow reveal">
-    <p class="badge">Workflow</p>
+    <section id="why" class="why reveal">
+      <p class="badge">Why Tideflow?</p>
 
-    <h2>From Markdown to PDF in seconds.</h2>
+      <h2>A cleaner path from Markdown to PDF.</h2>
 
-    <div class="steps">
-      <div class="step">1. Write</div>
-      <div class="step">2. Preview</div>
-      <div class="step">3. Export</div>
-    </div>
-  </section>
+      <div class="why-grid">
+        <div class="why-card">
+          <span>01</span>
+          <h3>No web dependency</h3>
+          <p>Keep your writing workflow local, fast and predictable.</p>
+        </div>
 
-  <section id="platforms" class="platforms reveal">
-    <p class="badge">Platforms</p>
+        <div class="why-card">
+          <span>02</span>
+          <h3>No heavy toolchains</h3>
+          <p>Create polished documents without maintaining complex export systems.</p>
+        </div>
 
-    <h2>Download Tideflow for your desktop.</h2>
+        <div class="why-card">
+          <span>03</span>
+          <h3>Built for clarity</h3>
+          <p>Focus on writing, formatting and exporting without unnecessary friction.</p>
+        </div>
 
-    <p class="platform-subtitle">
-      Available for Windows, macOS and Linux. Built for focused Markdown writing and clean PDF exports.
-    </p>
+        <div class="why-card">
+          <span>04</span>
+          <h3>Made for real work</h3>
+          <p>Useful for reports, documentation, research notes and long-form writing.</p>
+        </div>
+      </div>
+    </section>
 
-    <div class="platform-cards">
-      <div class="platform-card">
-        <h3>Windows</h3>
-        <p>Download Tideflow for your Windows writing workflow.</p>
-        <a class="btn" href="https://github.com/erayerd/Tideflow-md-to-pdf/releases" target="_blank" rel="noopener noreferrer">
-          Download for Windows
+    <section id="download" class="download reveal">
+      <p class="badge">Get Tideflow</p>
+
+      <h2>Ready to simplify your writing workflow?</h2>
+
+      <p>
+        Tideflow keeps Markdown-to-PDF creation clean, predictable and fast.
+      </p>
+
+      <div class="buttons">
+        <a
+          class="btn"
+          href="https://github.com/erayerd/Tideflow-md-to-pdf/releases/latest"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download Tideflow
+        </a>
+
+        <a
+          class="btn secondary"
+          href="https://github.com/erayerd/Tideflow-md-to-pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open GitHub Repository
         </a>
       </div>
-
-      <div class="platform-card">
-        <h3>macOS</h3>
-        <p>Use Tideflow on your Mac for focused Markdown editing.</p>
-        <a class="btn" href="https://github.com/erayerd/Tideflow-md-to-pdf/releases" target="_blank" rel="noopener noreferrer">
-          Download for macOS
-        </a>
-      </div>
-
-      <div class="platform-card">
-        <h3>Linux</h3>
-        <p>Run Tideflow on Linux and keep your workflow lightweight.</p>
-        <a class="btn" href="https://github.com/erayerd/Tideflow-md-to-pdf/releases" target="_blank" rel="noopener noreferrer">
-          Download for Linux
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section id="why" class="why reveal">
-    <p class="badge">Why Tideflow?</p>
-
-    <h2>A cleaner path from Markdown to PDF.</h2>
-
-    <div class="why-grid">
-      <div class="why-card">
-        <span>01</span>
-        <h3>No web dependency</h3>
-        <p>Keep your writing workflow local, fast and predictable.</p>
-      </div>
-
-      <div class="why-card">
-        <span>02</span>
-        <h3>No heavy toolchains</h3>
-        <p>Create polished documents without maintaining complex export systems.</p>
-      </div>
-
-      <div class="why-card">
-        <span>03</span>
-        <h3>Built for clarity</h3>
-        <p>Focus on writing, formatting and exporting without unnecessary friction.</p>
-      </div>
-
-      <div class="why-card">
-        <span>04</span>
-        <h3>Made for real work</h3>
-        <p>Useful for reports, documentation, research notes and long-form writing.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="download" class="download reveal">
-    <p class="badge">Get Tideflow</p>
-
-    <h2>Ready to simplify your writing workflow?</h2>
-
-    <p>
-      Tideflow keeps Markdown-to-PDF creation clean, predictable and fast.
-    </p>
-
-    <div class="buttons">
-      <a class="btn" href="https://github.com/erayerd/Tideflow-md-to-pdf/releases" target="_blank" rel="noopener noreferrer">
-        Download Tideflow
-      </a>
-
-      <a class="btn secondary" href="https://github.com/erayerd/Tideflow-md-to-pdf" target="_blank" rel="noopener noreferrer">
-        Open GitHub Repository
-      </a>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer>
-    <a class="footer-logo" href="#">Tideflow</a>
+    <a class="footer-logo" href="#top">Tideflow</a>
 
     <p>Built for writers, researchers, developers and professionals.</p>
 
