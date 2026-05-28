@@ -151,8 +151,12 @@ h1 {
     line-height: 1.1;
     margin: 24px auto;
     background: linear-gradient(to right, #ffffff, #7dd3fc);
+
+    background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;    
 }
 
 h2 {
