@@ -1,230 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tideflow</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Tideflow | Markdown to PDF Editor</title>
+  <meta name="description" content="Tideflow is an offline-first Markdown to PDF editor for clean, elegant and print-ready document exports." />
+
+  <meta property="og:title" content="Tideflow | Markdown to PDF Editor" />
+  <meta property="og:description" content="Write in Markdown. Export beautiful PDFs. Offline-first, lightweight and print-ready." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <div class="cursor-glow"></div>
 
-    <div class="cursor-glow"></div>
+  <nav class="navbar">
+    <a class="logo" href="#">Tideflow</a>
 
-    <nav class="navbar">
-        <div class="logo">Tideflow</div>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#workflow">Workflow</a>
+      <a href="#platforms">Platforms</a>
+      <a href="#why">Why Tideflow?</a>
+      <a href="#download">Download</a>
+    </div>
+  </nav>
 
-        <div class="nav-links">
-            <a href="#features">Features</a>
-            <a href="#workflow">Workflow</a>
-            <a href="#platforms">Platforms</a>
-            <a href="#why">Why Tideflow?</a>
-            <a href="#download">Download</a>
-        </div>
-    </nav>
+  <section class="hero">
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+    <div class="orb orb-three"></div>
 
-    <section class="hero">
+    <p class="badge">Offline-first Markdown to PDF editor</p>
 
-        <div class="orb orb-one"></div>
-        <div class="orb orb-two"></div>
-        <div class="orb orb-three"></div>
+    <h1>Write in Markdown. Export Beautiful PDFs.</h1>
 
-        <p class="badge">Offline-first Markdown to PDF editor</p>
+    <p class="subtitle">
+      A lightweight desktop app for fast, elegant, print-ready PDF exports.
+      No cloud dependency. No heavy toolchains. Just write and export.
+    </p>
 
-        <h1>Write in Markdown. Export Beautiful PDFs.</h1>
+    <div class="buttons">
+      <a class="btn" href="https://github.com/erayerd/Tideflow-md-to-pdf/releases" target="_blank" rel="noopener noreferrer">
+        Download Tideflow
+      </a>
 
-        <p class="subtitle">
-            A lightweight desktop app for fast, elegant, print-ready PDF exports.
-            No cloud dependency. No heavy toolchains. Just write and export.
-        </p>
+      <a class="btn secondary" href="https://github.com/erayerd/Tideflow-md-to-pdf" target="_blank" rel="noopener noreferrer">
+        View on GitHub
+      </a>
+    </div>
 
-        <div class="buttons">
-            <button>Download Tideflow</button>
-            <button class="secondary">View on GitHub</button>
-        </div>
+    <div class="mockup">
+      <div class="mockup-top">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-        <div class="mockup">
-            <div class="mockup-top">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-
-            <div class="mockup-content">
-                <div class="editor">
-                    <p class="code-line"># Project Notes</p>
-                    <p class="code-line">## Goals</p>
-                    <p class="code-line">- Write clean Markdown</p>
-                    <p class="code-line">- Preview instantly</p>
-                    <p class="code-line">- Export print-ready PDFs</p>
-                    <p class="code-line code-accent">exportPDF({ theme: "clean" })</p>
-                </div>
-
-                <div class="preview">
-                    <h3>Beautiful PDF Preview</h3>
-                    <p>Clean, structured and ready to export.</p>
-
-                    <div class="pdf-lines">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
+      <div class="mockup-content">
+        <div class="editor">
+          <p class="code-line"># Project Notes</p>
+          <p class="code-line">## Goals</p>
+          <p class="code-line">- Write clean Markdown</p>
+          <p class="code-line">- Preview instantly</p>
+          <p class="code-line">- Export print-ready PDFs</p>
+          <p class="code-line code-accent">exportPDF({ theme: "clean" })</p>
         </div>
 
-    </section>
+        <div class="preview">
+          <h3>Beautiful PDF Preview</h3>
+          <p>Clean, structured and ready to export.</p>
 
-    <section id="features" class="features reveal">
-        <p class="badge">Features</p>
-
-        <h2>Everything you need. Nothing you don’t.</h2>
-
-        <div class="cards">
-            <div class="card">
-                <h3>Offline-first</h3>
-                <p>Work without relying on web services or cloud sync.</p>
-            </div>
-
-            <div class="card">
-                <h3>Markdown Native</h3>
-                <p>Write naturally in Markdown and keep your workflow simple.</p>
-            </div>
-
-            <div class="card">
-                <h3>Print-ready PDFs</h3>
-                <p>Export clean, elegant documents without heavy setup.</p>
-            </div>
+          <div class="pdf-lines">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section id="workflow" class="workflow reveal">
-        <p class="badge">Workflow</p>
+  <section id="features" class="features reveal">
+    <p class="badge">Features</p>
 
-        <h2>From Markdown to PDF in seconds.</h2>
+    <h2>Everything you need. Nothing you don’t.</h2>
 
-        <div class="steps">
-            <div class="step">1. Write</div>
-            <div class="step">2. Preview</div>
-            <div class="step">3. Export</div>
-        </div>
-    </section>
+    <div class="cards">
+      <div class="card">
+        <h3>Offline-first</h3>
+        <p>Work without relying on web services or cloud sync.</p>
+      </div>
 
-    <section id="platforms" class="platforms reveal">
-        <p class="badge">Platforms</p>
+      <div class="card">
+        <h3>Markdown Native</h3>
+        <p>Write naturally in Markdown and keep your workflow simple.</p>
+      </div>
 
-        <h2>Download Tideflow for your desktop.</h2>
+      <div class="card">
+        <h3>Print-ready PDFs</h3>
+        <p>Export clean, elegant documents without heavy setup.</p>
+      </div>
+    </div>
+  </section>
 
-        <p class="platform-subtitle">
-            Available for Windows, macOS and Linux. Built for focused Markdown writing and clean PDF exports.
-        </p>
+  <section id="workflow" class="workflow reveal">
+    <p class="badge">Workflow</p>
 
-        <div class="platform-cards">
-            <div class="platform-card">
-                <h3>Windows</h3>
-                <p>Download Tideflow for your Windows writing workflow.</p>
-                <button>Download for Windows</button>
-            </div>
+    <h2>From Markdown to PDF in seconds.</h2>
 
-            <div class="platform-card">
-                <h3>macOS</h3>
-                <p>Use Tideflow on your Mac for focused Markdown editing.</p>
-                <button>Download for macOS</button>
-            </div>
+    <div class="steps">
+      <div class="step">1. Write</div>
+      <div class="step">2. Preview</div>
+      <div class="step">3. Export</div>
+    </div>
+  </section>
 
-            <div class="platform-card">
-                <h3>Linux</h3>
-                <p>Run Tideflow on Linux and keep your workflow lightweight.</p>
-                <button>Download for Linux</button>
-            </div>
-        </div>
-    </section>
+  <section id="platforms" class="platforms reveal">
+    <p class="badge">Platforms</p>
 
-    <section id="why" class="why reveal">
-        <p class="badge">Why Tideflow?</p>
+    <h2>Download Tideflow for your desktop.</h2>
 
-        <h2>A cleaner path from Markdown to PDF.</h2>
+    <p class="platform-subtitle">
+      Available for Windows, macOS and Linux. Built for focused Markdown writing and clean PDF exports.
+    </p>
 
-        <div class="why-grid">
-            <div class="why-card">
-                <span>01</span>
-                <h3>No web dependency</h3>
-                <p>Keep your writing workflow local, fast and predictable.</p>
-            </div>
+    <div class="platform-cards">
+      <div class="platform-card">
+        <h3>Windows</h3>
+        <p>Download Tideflow for your Windows writing workflow.</p>
+        <a class="btn" href="https://github.com/erayerd/Tideflow-md-to-pdf/releases" target="_blank" rel="noopener noreferrer">
+          Download for Windows
+        </a>
+      </div>
 
-            <div class="why-card">
-                <span>02</span>
-                <h3>No heavy toolchains</h3>
-                <p>Create polished documents without maintaining complex export systems.</p>
-            </div>
+      <div class="platform-card">
+        <h3>macOS</h3>
+        <p>Use Tideflow on your Mac for focused Markdown editing.</p>
+        <a class="btn" href="https://github.com/erayerd/Tideflow-md-to-pdf/releases" target="_blank" rel="noopener noreferrer">
+          Download for macOS
+        </a>
+      </div>
 
-            <div class="why-card">
-                <span>03</span>
-                <h3>Built for clarity</h3>
-                <p>Focus on writing, formatting and exporting without unnecessary friction.</p>
-            </div>
+      <div class="platform-card">
+        <h3>Linux</h3>
+        <p>Run Tideflow on Linux and keep your workflow lightweight.</p>
+        <a class="btn" href="https://github.com/erayerd/Tideflow-md-to-pdf/releases" target="_blank" rel="noopener noreferrer">
+          Download for Linux
+        </a>
+      </div>
+    </div>
+  </section>
 
-            <div class="why-card">
-                <span>04</span>
-                <h3>Made for real work</h3>
-                <p>Useful for reports, documentation, research notes and long-form writing.</p>
-            </div>
-        </div>
-    </section>
+  <section id="why" class="why reveal">
+    <p class="badge">Why Tideflow?</p>
 
-    <section id="download" class="download reveal">
-        <p class="badge">Get Tideflow</p>
+    <h2>A cleaner path from Markdown to PDF.</h2>
 
-        <h2>Ready to simplify your writing workflow?</h2>
+    <div class="why-grid">
+      <div class="why-card">
+        <span>01</span>
+        <h3>No web dependency</h3>
+        <p>Keep your writing workflow local, fast and predictable.</p>
+      </div>
 
-        <p>
-            Tideflow keeps Markdown-to-PDF creation clean, predictable and fast.
-        </p>
+      <div class="why-card">
+        <span>02</span>
+        <h3>No heavy toolchains</h3>
+        <p>Create polished documents without maintaining complex export systems.</p>
+      </div>
 
-        <div class="buttons">
-            <button>Download Tideflow</button>
-            <button class="secondary">Open GitHub Repository</button>
-        </div>
-    </section>
+      <div class="why-card">
+        <span>03</span>
+        <h3>Built for clarity</h3>
+        <p>Focus on writing, formatting and exporting without unnecessary friction.</p>
+      </div>
 
-    <footer>
-        <div class="footer-logo">Tideflow</div>
+      <div class="why-card">
+        <span>04</span>
+        <h3>Made for real work</h3>
+        <p>Useful for reports, documentation, research notes and long-form writing.</p>
+      </div>
+    </div>
+  </section>
 
-        <p>Built for writers, researchers, developers and professionals.</p>
+  <section id="download" class="download reveal">
+    <p class="badge">Get Tideflow</p>
 
-        <div class="footer-links">
-            <a href="#features">Features</a>
-            <a href="#platforms">Platforms</a>
-            <a href="#download">Download</a>
-        </div>
-    </footer>
+    <h2>Ready to simplify your writing workflow?</h2>
 
-    <script>
-        const glow = document.querySelector(".cursor-glow");
+    <p>
+      Tideflow keeps Markdown-to-PDF creation clean, predictable and fast.
+    </p>
 
-        document.addEventListener("mousemove", (event) => {
-            glow.style.left = event.clientX + "px";
-            glow.style.top = event.clientY + "px";
-        });
+    <div class="buttons">
+      <a class="btn" href="https://github.com/erayerd/Tideflow-md-to-pdf/releases" target="_blank" rel="noopener noreferrer">
+        Download Tideflow
+      </a>
 
-        const revealElements = document.querySelectorAll(".reveal");
+      <a class="btn secondary" href="https://github.com/erayerd/Tideflow-md-to-pdf" target="_blank" rel="noopener noreferrer">
+        Open GitHub Repository
+      </a>
+    </div>
+  </section>
 
-        const revealOnScroll = () => {
-            revealElements.forEach((element) => {
-                const position = element.getBoundingClientRect().top;
-                const windowHeight = window.innerHeight;
+  <footer>
+    <a class="footer-logo" href="#">Tideflow</a>
 
-                if (position < windowHeight - 120) {
-                    element.classList.add("active");
-                }
-            });
-        };
+    <p>Built for writers, researchers, developers and professionals.</p>
 
-        window.addEventListener("scroll", revealOnScroll);
-        revealOnScroll();
-    </script>
+    <div class="footer-links">
+      <a href="#features">Features</a>
+      <a href="#platforms">Platforms</a>
+      <a href="#download">Download</a>
+    </div>
+  </footer>
 
+  <script>
+    const glow = document.querySelector(".cursor-glow");
+
+    if (glow) {
+      document.addEventListener("mousemove", (event) => {
+        glow.style.left = event.clientX + "px";
+        glow.style.top = event.clientY + "px";
+      });
+    }
+
+    const revealElements = document.querySelectorAll(".reveal");
+
+    const revealOnScroll = () => {
+      revealElements.forEach((element) => {
+        const position = element.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if (position < windowHeight - 120) {
+          element.classList.add("active");
+        }
+      });
+    };
+
+    window.addEventListener("scroll", revealOnScroll);
+    revealOnScroll();
+  </script>
 </body>
-
 </html>
